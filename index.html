@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./assets/css/app.css">
+
+  <title>Character generator</title>
+</head>
+<body>
+<div id="account">
+  <div id="top">
+  <form class="gegevens" id="login" action="">
+      <h1>Log in</h1>
+        <input class="input" type="email" name="login_email" id="login_email" placeholder="email">
+        <input class="input" type="password" name="login_password" id="login_password" placeholder="wachtwoord">
+      <button type="submit" id="btn_login">Login</button>
+
+  </form>
+
+  <form class="gegevens" id="signup" action="">
+      <h1>Sign in</h1>
+      <input class="input" type="email" name="signup_email" id="signup_email" placeholder="email">
+      <input class="input" type="password" name="ignup_password" id="signup_password" placeholder="password">
+      <button type="submit" id="btn_signup">Sign up</button>
+  </form>
+  </div>
+</div>
+
+
+  <div id="container"></div>
+  <div id="buttons">
+    <div id="buttonslayout">
+    <button id="button">Opslaan</button>
+    <button id="list">Charachters</button>
+    <button id="restart">restart</button>
+    <button id="run">run</button>
+    <button id="stop">stop Run</button>
+    <button id="btn_logout">logout</button>
+  </div>
+  </div>
+
+
+
+
+  <div id="characters"></div>
+
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase.js"></script>
+
+<script src="assets/js/account.js"></script>
+<script src="assets/js/app.js"></script>
+
+
+</script>
+</body>
+</html>
